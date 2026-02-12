@@ -1,3 +1,6 @@
+
+//
+
 let temp=25.5;
 console.log("Temperature of a city in degrees Celsius:"+temp);
 
@@ -28,3 +31,33 @@ console.log("Person's favourite colour: "+favouriteColour);
 
 let currentYear=2023;
 console.log("Current year: "+currentYear);
+
+let followers=1000000;
+console.log("Number of followers on a social media platform: "+followers);
+
+let ratingmovie=7.5;
+console.log("Rating of a movie: "+ratingmovie);
+
+let consoleMessage="Hello, World!";
+console.log("Message to be displayed on a console: "+consoleMessage);
+
+let bookTitle="To Kill a Mockingbird";
+console.log("Title of a book: "+bookTitle);
+
+let noOfEmployees=500;
+console.log("Number of employees in a company: "+noOfEmployees);
+
+let timeOfEvent="2:30 PM";
+console.log("Time of an event: "+timeOfEvent);
+
+let countryName="United States";
+console.log("Name of a country: "+countryName);
+
+let eyeColor="Brown";
+console.log("Person's eye color: "+eyeColor); 
+
+ let birthplace="New York City";
+console.log("Person's birthplace: "+birthplace);
+
+let distance=200.5;
+console.log("Distance between two cities: "+distance+" km");
