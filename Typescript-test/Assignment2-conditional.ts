@@ -28,11 +28,13 @@ if(creditscore >750){
 
             console.log("additional checks are performed for loan approval");
     }
+}
     else if(creditscore < 650){
         console.log("customer loan is not approved");
-      }
+      
      }
+     
 }
 
-
-custmerdetails("John Doe", 720, 60000, true, 35.0);
+  
+custmerdetails("John Doe", 720, 60000, true, 35.0); 
