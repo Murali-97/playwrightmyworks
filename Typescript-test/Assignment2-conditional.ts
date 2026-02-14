@@ -12,7 +12,7 @@ function custmerdetails(customername : String , creditscore : number , income : 
 if(creditscore >750){
         console.log("customer loan is approved");
     }
-    else if((creditscore > 650 && creditscore <750 )){
+    else if(creditscore > 650){
 
         if(income >=50000){
             console.log("customer loan is considered for approval");
