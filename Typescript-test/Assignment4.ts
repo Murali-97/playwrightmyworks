@@ -1,35 +1,35 @@
 
- let amount: number[]=[50000,-2000,3000,-15000,-200,-300,4000,-3000];
- let postiveamount: number=0;
- let negativeamount: number=0; 
- let suspiciousamount: number=0;
-let totalamount: number=0;
-    let positivecount : number=0;
-    let negativecount : number=0;
+ let amounts : number[]=[50000,-2000,3000,-15000,-200,-300,4000,-3000];
+ let postiveamounts: number=0;
+ let negativeamounts: number=0; 
+ let suspiciousamounts: number=0;
+ let totalamounts: number=0;
+ let positivecount : number=0;
+ let negativecount : number=0;
  
-    for(let i=0;i<amount.length;i++){ 
+    for(let i=0;i<amounts.length;i++){ 
 
 
-        totalamount+=amount[i]; 
-        if(amount[i]>10000 || amount[i]<-10000){
-            console.log("suspicious transaction : " + amount[i]);
-            suspiciousamount+=amount[i];
+        totalamounts+=amounts[i]; 
+        if(amounts[i]>10000 || amounts[i]<-10000){
+            console.log("suspicious transaction : " + amounts[i]);
+            suspiciousamounts+=amounts[i];
         }
 
-    if(amount[i]>0){
+    if(amounts[i]>0){
         positivecount++;
-        postiveamount+=amount[i];
+        postiveamounts+=amounts[i];
         
     }
     else{
         negativecount++;
-        negativeamount+=amount[i];
+        negativeamounts+=amounts[i];
     }
 }
 
-console.log("Total Amount: " + totalamount);
-console.log("Total Positive Amount: " + postiveamount);
-console.log("Total Negative Amount: " + negativeamount);
+console.log("Total amountss: " + totalamounts);
+console.log("Total Positive amoutss: " + postiveamounts);
+console.log("Total Negative amoutss: " + negativeamounts);
 console.log("Number of Positive Transactions: " + positivecount);
 console.log("Number of Negative Transactions: " + negativecount);
-console.log("Total Suspicious Amount: " + suspiciousamount);
+console.log("Total Suspicious amoutss: " + suspiciousamounts);
