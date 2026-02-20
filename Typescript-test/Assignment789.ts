@@ -33,7 +33,7 @@ console.log("Capitalized Sentence: "+capitalizedSentense.trim());
 // 2. Print count and Indexes of the word
 
 //let paragraph:string="Java is a popular programming langapplications. Java is known for its portability and performance.";
-let searchwords:String="Java";
+let searchwords:string="Java";
 let countoccurenses:number=0;
 let indexes:number[]=[];
 
