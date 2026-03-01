@@ -3,8 +3,11 @@
 
 
  function powerofvalue(x:number,n:number):number{
+  if(n==0) return 1;
      let powervalue=1;
-
+if(n<0)
+  x=1/x;
+   n=-n;
     for(let i=1;i<=n;i++){
      
         powervalue*=x;
@@ -16,4 +19,4 @@
 return powervalue;
 
 }
-console.log(powerofvalue(2.00000,10));
+console.log(powerofvalue(2.00000,0));
