@@ -1,0 +1,20 @@
+{
+  "cucumberautocomplete.steps": [
+    "step-definition/**/*.ts",
+    "step-definition/**/*.js",
+    "page-model/page-steps/**/*.ts"
+  ],
+  "cucumberautocomplete.strictGherkinCompletion": true,
+  "cucumberautocomplete.smartSnippets": true,
+  "cucumberautocomplete.stepsInvariants": true,
+  "cucumber.glue": [
+    "step-definition/**/*.ts",
+    "page-model/page-steps/**/*.ts"
+  ],
+  "cucumber.features": [
+    "feature/**/*.feature"
+  ],
+  "[gherkin]": {
+    "editor.formatOnSave": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "default": {
+    "require": [
+      "step-definition/**/*.ts",
+      "step-definition/**/*.js"
+    ],
+    "requireModule": [
+      "ts-node/register"
+    ],
+    "format": [
+      "progress"
+    ],
+    "paths": [
+      "feature/**/*.feature"
+    ]
+  }
+}

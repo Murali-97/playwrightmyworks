@@ -1,0 +1,6 @@
+{
+  "stepDefinitions": [
+    "step-definition/**/*.ts",
+    "page-model/page-steps/**/*.ts"
+  ]
+}
